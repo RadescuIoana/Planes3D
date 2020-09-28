@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{9494f307-c1ec-49c3-b3a2-e8bd3267d84e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Window">
+      <UniqueIdentifier>{a3d208ce-c616-4e32-9d2d-f8e8825c59cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{1d2eb2cb-c2cc-41b4-af6d-395b05f55a04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component">
+      <UniqueIdentifier>{473dfab2-3e7d-432d-8e69-65aa99f48c29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\GPU">
+      <UniqueIdentifier>{271e5bd2-7cb3-40b7-b2e5-5e343c58f910}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Laboratoare">
+      <UniqueIdentifier>{a73d11aa-9a42-4f7c-ba61-adefedb1e0cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Managers">
+      <UniqueIdentifier>{2940a1fd-9fef-46a7-93fb-a8241118d00a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Laboratoare\Tema2">
+      <UniqueIdentifier>{a1cc818b-2c93-43c7-b439-08a14d0c1db0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Laboratoare\Tema2\Shaders">
+      <UniqueIdentifier>{cbc835a5-80d2-4d09-876c-b8bdcbf764da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Laboratoare\Tema2\Plane">
+      <UniqueIdentifier>{61b6028f-88b3-44f2-bcef-f75f9df5745b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Laboratoare\Tema2\Objects3D">
+      <UniqueIdentifier>{7c1458f0-45cd-4c9a-bb62-2752afd15fec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Laboratoare\Tema2\Cloud">
+      <UniqueIdentifier>{3d373af0-15f7-4c96-8fcc-114fe6bbff13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Laboratoare\Tema2\Obstacle">
+      <UniqueIdentifier>{175077a2-48a8-443c-8988-cc1b0a1485e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Laboratoare\Tema2\Fuel">
+      <UniqueIdentifier>{8fb262b3-f039-4d3c-8ef5-caeebacb4901}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Source\Core\Engine.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Core\World.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\include\gl.cpp">
+      <Filter>include</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Core\Window\WindowObject.cpp">
+      <Filter>Core\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Core\GPU\Shader.cpp">
+      <Filter>Core\GPU</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Main.cpp" />
+    <ClCompile Include="..\Source\Core\Window\WindowCallbacks.cpp">
+      <Filter>Core\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Core\GPU\Mesh.cpp">
+      <Filter>Core\GPU</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Core\GPU\Texture2D.cpp">
+      <Filter>Core\GPU</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Core\Managers\TextureManager.cpp">
+      <Filter>Core\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Component\CameraInput.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Core\Window\InputController.cpp">
+      <Filter>Core\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Component\SimpleScene.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Core\GPU\GPUBuffers.cpp">
+      <Filter>Core\GPU</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Component\SceneInput.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Laboratoare\Tema2\Plane\Plane.cpp">
+      <Filter>Laboratoare\Tema2\Plane</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Laboratoare\Tema2\Objects\Objects3D.cpp">
+      <Filter>Laboratoare\Tema2\Objects3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Laboratoare\Tema2\Cloud\Cloud.cpp">
+      <Filter>Laboratoare\Tema2\Cloud</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Laboratoare\Tema2\Obstacle\Obstacle.cpp">
+      <Filter>Laboratoare\Tema2\Obstacle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Laboratoare\Tema2\Fuel\Fuel.cpp">
+      <Filter>Laboratoare\Tema2\Fuel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Laboratoare\Tema2\Game.cpp">
+      <Filter>Laboratoare\Tema2</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Source\Core\World.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Core\Engine.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\include\gl.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\include\glm.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\include\math.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\include\utils.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Core\Window\WindowObject.h">
+      <Filter>Core\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Core\GPU\Shader.h">
+      <Filter>Core\GPU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Core\Window\WindowCallbacks.h">
+      <Filter>Core\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Core\GPU\Mesh.h">
+      <Filter>Core\GPU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Core\GPU\Texture2D.h">
+      <Filter>Core\GPU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Laboratoare\LabList.h">
+      <Filter>Laboratoare</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Core\Managers\ResourcePath.h">
+      <Filter>Core\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Core\Managers\TextureManager.h">
+      <Filter>Core\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Component\CameraInput.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Core\Window\InputController.h">
+      <Filter>Core\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Component\SimpleScene.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Core\GPU\GPUBuffers.h">
+      <Filter>Core\GPU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Component\SceneInput.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Laboratoare\Tema2\Plane\Plane.h">
+      <Filter>Laboratoare\Tema2\Plane</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Laboratoare\Tema2\Objects\Objects3D.h">
+      <Filter>Laboratoare\Tema2\Objects3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Laboratoare\Tema2\Cloud\Cloud.h">
+      <Filter>Laboratoare\Tema2\Cloud</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Laboratoare\Tema2\Obstacle\Obstacle.h">
+      <Filter>Laboratoare\Tema2\Obstacle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Laboratoare\Tema2\Fuel\Fuel.h">
+      <Filter>Laboratoare\Tema2\Fuel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Laboratoare\Tema2\Game.h">
+      <Filter>Laboratoare\Tema2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Laboratoare\Tema2\GameCamera.h">
+      <Filter>Laboratoare\Tema2</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="..\Source\Laboratoare\Tema2\Shaders\FragmentShader.glsl">
+      <Filter>Laboratoare\Tema2\Shaders</Filter>
+    </None>
+    <None Include="..\Source\Laboratoare\Tema2\Shaders\VertexShader.glsl">
+      <Filter>Laboratoare\Tema2\Shaders</Filter>
+    </None>
+    <None Include="..\Source\Laboratoare\Tema2\Shaders\SeaFragmentShader.glsl">
+      <Filter>Laboratoare\Tema2\Shaders</Filter>
+    </None>
+    <None Include="..\Source\Laboratoare\Tema2\Shaders\SeaVertexShader.glsl">
+      <Filter>Laboratoare\Tema2\Shaders</Filter>
+    </None>
+    <None Include="..\Source\Laboratoare\Tema2\Shaders\PlaneFragmentShader.glsl">
+      <Filter>Laboratoare\Tema2\Shaders</Filter>
+    </None>
+    <None Include="..\Source\Laboratoare\Tema2\Shaders\PlaneVertexShader.glsl">
+      <Filter>Laboratoare\Tema2\Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
